@@ -12,10 +12,16 @@ div{
     border: 1px solid #333;
 
     background-color: #ccc;
-    transition-property: background-color;
+    transition-property: background-color,width,height,border-color;
     transition-duration: 2s;
 }
 
 div:hover{
     background-color: red;
+    width: 120px;
+    height: 120px;
+    border-color: blue;
+}
+div:active{
+    background-color: black;
 }
